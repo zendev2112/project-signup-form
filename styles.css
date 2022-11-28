@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(./Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+}
+
+.wallpaper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;       
+}
+
+.site-wallpaper {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.odin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 8rem;
+    background: rgba(0, 0, 0, 0.404); 
+    
+}
+
+.odin-lined {
+   display: flex; 
+   flex-direction: row;
+   position: relative;
+   width: 25%; 
+   align-items: center;
+   justify-content: center; 
+
+}
+
+.odin-text {
+  display: flex;  
+  flex-direction: row;  
+  position: relative;  
+  text-align: left;
+  font-family: 'Norse Bold';
+  font-size: 64px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.form {
+    margin-top: 100px;
+    box-shadow: 0px 4px 8px rgb(179, 179, 179);
+}
+
+.form-header {
+    padding: 25px;
+}
+
+table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+    margin: 20px;
+}
+
+button {
+    background:#596D48;
+    padding: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 25px 20px;
+}
+
+:focus {
+    outline: 1px solid rgb(97, 143, 228);
+}
+
+
+
+
+
+
+
+
+
+
